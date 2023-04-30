@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Ticket List</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ticket Tracker Application</a>
+        <button class="navbar-toggler" data-bs-target="#collapsibleNavbar" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/ticket/tracker/list}">Tickets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/ticket/tracker/create-ticket}">New Ticket</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <h1>List of Tickets</h1>
+    </div>
+    <div class="row" style="width: 30%;  padding-bottom: 15px;">
+        <form class="d-flex" th:action="@{/ticket/tracker/search}" th:object="${searchString}" method="post">
+            <input class="form-control me-2" name="ticket" th:field="*{searchText}" placeholder="Search By Short Description" type="text">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Ticket Title</th>
+                <th>Ticket Short Description</th>
+                <th>Ticket Created on</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="ticket: ${tickets}">
+                <td th:text="${ticket.id}"></td>
+                <td th:text="${ticket.ticketTitle}"></td>
+                <td th:text="${ticket.ticketShortDes}"></td>
+                <td th:text="${ticket.ticketCreatedTime}"></td>
+                <td>
+                    <a class="btn btn-success" th:href="@{/ticket/tracker/update/{id}(id=${ticket.id})}">Update</a>
+                    <a class="btn btn-danger" th:href="@{/ticket/tracker/delete/{id}(id=${ticket.id})}">Delete</a>
+                    <a class="btn btn-info" th:href="@{/ticket/tracker/view/{id}(id=${ticket.id})}">View</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- Copyright -->
+<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    <b>Copyright © 2023 GreatLearning All right reserved</b>
+</div>
+</body>
+</html>
