@@ -1,0 +1,1196 @@
+2023-04-30 11:29:21.052  INFO 12756 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 12756 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 11:29:21.053  INFO 12756 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 11:29:21.118  INFO 12756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 11:29:21.120  INFO 12756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 11:29:21.886  INFO 12756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 11:29:21.935  INFO 12756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2023-04-30 11:29:22.670  INFO 12756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 11:29:22.681  INFO 12756 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 11:29:22.682  INFO 12756 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 11:29:22.754  INFO 12756 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 11:29:22.754  INFO 12756 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1634 ms
+2023-04-30 11:29:23.067  INFO 12756 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 11:29:23.113  INFO 12756 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 11:29:23.269  INFO 12756 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 11:29:23.360  WARN 12756 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 11:29:23.362  INFO 12756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 11:29:23.635  INFO 12756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 11:29:23.648  INFO 12756 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 11:29:24.299  INFO 12756 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 11:29:24.307  INFO 12756 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:29:24.313  INFO 12756 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 11:29:24.314  INFO 12756 --- [restartedMain] c.g.ticket.tracker.config.WebConfig      : Web Configuration started
+2023-04-30 11:29:24.839  WARN 12756 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 11:29:25.472  INFO 12756 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 11:29:25.482  INFO 12756 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 11:29:25.542  INFO 12756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 11:29:25.560  INFO 12756 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 4.964 seconds (JVM running for 5.556)
+2023-04-30 11:29:34.572  INFO 12756 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 11:29:34.573  INFO 12756 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 11:29:34.574  INFO 12756 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-30 11:29:34.596  INFO 12756 --- [http-nio-8080-exec-1] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 11:29:34.887  INFO 12756 --- [http-nio-8080-exec-3] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 11:29:36.774  INFO 12756 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 11:29:36.826  INFO 12756 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 11:29:36.830  INFO 12756 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 11:29:36.911  INFO 12756 --- [http-nio-8080-exec-2] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 11:29:36.916  INFO 12756 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 11:29:36.917  INFO 12756 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 11:37:40.424  INFO 12756 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:37:40.428  INFO 12756 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 11:37:40.434  INFO 12756 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 11:44:21.473  INFO 14684 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 14684 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 11:44:21.474  INFO 14684 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 11:44:21.539  INFO 14684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 11:44:21.539  INFO 14684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 11:44:22.341  INFO 14684 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 11:44:22.385  INFO 14684 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2023-04-30 11:44:23.130  INFO 14684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 11:44:23.140  INFO 14684 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 11:44:23.140  INFO 14684 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 11:44:23.211  INFO 14684 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 11:44:23.211  INFO 14684 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1671 ms
+2023-04-30 11:44:23.502  INFO 14684 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 11:44:23.543  INFO 14684 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 11:44:23.669  INFO 14684 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 11:44:23.758  WARN 14684 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 11:44:23.759  INFO 14684 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 11:44:24.005  INFO 14684 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 11:44:24.016  INFO 14684 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 11:44:24.551  INFO 14684 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 11:44:24.557  INFO 14684 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:44:24.561  INFO 14684 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 11:44:24.928  WARN 14684 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ceefc024-e14a-49cb-8624-ead7bef7e37f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-04-30 11:44:25.060  WARN 14684 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 11:44:25.288  INFO 14684 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 11:44:25.300  INFO 14684 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4ccfbeb6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1696fcb7, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c3a29b1, org.springframework.security.web.header.HeaderWriterFilter@7ae6a667, org.springframework.web.filter.CorsFilter@5ec04efb, org.springframework.security.web.csrf.CsrfFilter@58317f7e, org.springframework.security.web.authentication.logout.LogoutFilter@60f3e117, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4245b429, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3192970c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4ae6db82, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7445c8d0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c7a5a58, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43c495f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7bedf666, org.springframework.security.web.session.SessionManagementFilter@34caca9c, org.springframework.security.web.access.ExceptionTranslationFilter@e3f0fde, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a379b88]
+2023-04-30 11:44:25.510  INFO 14684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 11:44:25.562  INFO 14684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 11:44:25.578  INFO 14684 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 4.542 seconds (JVM running for 5.065)
+2023-04-30 11:44:34.943  INFO 14684 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 11:44:34.945  INFO 14684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 11:44:34.946  INFO 14684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-30 11:44:35.125  WARN 14684 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [134] milliseconds.
+2023-04-30 11:45:04.161  INFO 14684 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:45:04.165  INFO 14684 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 11:45:04.181  INFO 14684 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 11:45:07.454  INFO 16056 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 16056 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 11:45:07.456  INFO 16056 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 11:45:07.516  INFO 16056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 11:45:07.516  INFO 16056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 11:45:08.295  INFO 16056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 11:45:08.340  INFO 16056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2023-04-30 11:45:09.180  INFO 16056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 11:45:09.192  INFO 16056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 11:45:09.192  INFO 16056 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 11:45:09.261  INFO 16056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 11:45:09.261  INFO 16056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1744 ms
+2023-04-30 11:45:09.590  INFO 16056 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 11:45:09.642  INFO 16056 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 11:45:09.781  INFO 16056 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 11:45:09.868  WARN 16056 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 11:45:09.869  INFO 16056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 11:45:10.119  INFO 16056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 11:45:10.132  INFO 16056 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 11:45:10.718  INFO 16056 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 11:45:10.728  INFO 16056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:45:10.735  INFO 16056 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 11:45:11.134  WARN 16056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 11:45:11.551  WARN 16056 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cc92566c-71c5-440e-9800-11da3b277963
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-04-30 11:45:11.659  INFO 16056 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 11:45:11.676  INFO 16056 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@48449169, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34890c7a, org.springframework.security.web.context.SecurityContextPersistenceFilter@151b4bf8, org.springframework.security.web.header.HeaderWriterFilter@77d75906, org.springframework.web.filter.CorsFilter@298eb5cf, org.springframework.security.web.csrf.CsrfFilter@2f565562, org.springframework.security.web.authentication.logout.LogoutFilter@68a8c2c5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@15f75f4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3e3fdb31, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3e88a14e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3e98452e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50092568, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4082e245, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52abb02f, org.springframework.security.web.session.SessionManagementFilter@762fb375, org.springframework.security.web.access.ExceptionTranslationFilter@46a19377, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2689f60a]
+2023-04-30 11:45:11.736  INFO 16056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 11:45:11.781  INFO 16056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 11:45:11.800  INFO 16056 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 4.787 seconds (JVM running for 5.423)
+2023-04-30 11:45:28.828  INFO 16056 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 11:45:28.830  INFO 16056 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 11:45:28.832  INFO 16056 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-30 11:45:33.925  INFO 16056 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:45:33.930  INFO 16056 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 11:45:33.941  INFO 16056 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 11:45:54.779  INFO 15748 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 15748 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 11:45:54.782  INFO 15748 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 11:45:54.943  INFO 15748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 11:45:54.943  INFO 15748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 11:45:56.665  INFO 15748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 11:45:56.750  INFO 15748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+2023-04-30 11:45:58.301  INFO 15748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 11:45:58.320  INFO 15748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 11:45:58.321  INFO 15748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 11:45:58.459  INFO 15748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 11:45:58.460  INFO 15748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3516 ms
+2023-04-30 11:45:58.994  INFO 15748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 11:45:59.056  INFO 15748 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 11:45:59.264  INFO 15748 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 11:45:59.375  WARN 15748 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 11:45:59.377  INFO 15748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 11:45:59.731  INFO 15748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 11:45:59.749  INFO 15748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 11:46:00.670  INFO 15748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 11:46:00.680  INFO 15748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:46:00.688  INFO 15748 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 11:46:01.535  WARN 15748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 11:46:02.276  WARN 15748 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8760d4a8-a629-4292-9e18-aa92fe8652f0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-04-30 11:46:02.454  INFO 15748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 11:46:02.477  INFO 15748 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@26a7084, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c7a9375, org.springframework.security.web.context.SecurityContextPersistenceFilter@d7fbf9f, org.springframework.security.web.header.HeaderWriterFilter@53aee27b, org.springframework.web.filter.CorsFilter@54a5e1f, org.springframework.security.web.csrf.CsrfFilter@4bfa7e57, org.springframework.security.web.authentication.logout.LogoutFilter@2caded02, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@58bd2bf, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2fe85ad5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@79f44fbc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6be6b501, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73091398, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70fd7aec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28cbfe56, org.springframework.security.web.session.SessionManagementFilter@6d2668e, org.springframework.security.web.access.ExceptionTranslationFilter@1d666baa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f7633bc]
+2023-04-30 11:46:02.570  INFO 15748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 11:46:02.623  INFO 15748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 11:46:02.641  INFO 15748 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 8.773 seconds (JVM running for 9.745)
+2023-04-30 11:46:59.939  INFO 15748 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:46:59.943  INFO 15748 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 11:46:59.953  INFO 15748 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 11:47:36.248  INFO 17348 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 17348 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 11:47:36.250  INFO 17348 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 11:47:36.309  INFO 17348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 11:47:36.309  INFO 17348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 11:47:37.029  INFO 17348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 11:47:37.074  INFO 17348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2023-04-30 11:47:37.812  INFO 17348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 11:47:37.821  INFO 17348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 11:47:37.821  INFO 17348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 11:47:37.893  INFO 17348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 11:47:37.894  INFO 17348 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1583 ms
+2023-04-30 11:47:38.181  INFO 17348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 11:47:38.228  INFO 17348 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 11:47:38.375  INFO 17348 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 11:47:38.467  WARN 17348 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 11:47:38.468  INFO 17348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 11:47:38.813  INFO 17348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 11:47:38.831  INFO 17348 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 11:47:39.588  INFO 17348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 11:47:39.598  INFO 17348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:47:39.605  INFO 17348 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 11:47:40.161  WARN 17348 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 11:47:40.742  INFO 17348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 11:47:40.748  INFO 17348 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 11:47:40.803  INFO 17348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 11:47:40.818  INFO 17348 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 5.029 seconds (JVM running for 5.616)
+2023-04-30 11:47:49.031  INFO 17348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 11:47:49.033  INFO 17348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 11:47:49.034  INFO 17348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-30 11:47:49.061  INFO 17348 --- [http-nio-8080-exec-1] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 11:47:49.496  INFO 17348 --- [http-nio-8080-exec-3] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 11:47:50.606  INFO 17348 --- [http-nio-8080-exec-2] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 11:47:50.659  INFO 17348 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 11:47:50.665  INFO 17348 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 11:47:50.745  INFO 17348 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 11:47:50.749  INFO 17348 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 11:47:50.750  INFO 17348 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 11:55:18.399  INFO 17348 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:55:18.403  INFO 17348 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 11:55:18.409  INFO 17348 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 11:55:28.015  INFO 23932 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 23932 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 11:55:28.016  INFO 23932 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 11:55:28.074  INFO 23932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 11:55:28.075  INFO 23932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 11:55:28.855  INFO 23932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 11:55:28.900  INFO 23932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2023-04-30 11:55:29.611  INFO 23932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 11:55:29.620  INFO 23932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 11:55:29.620  INFO 23932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 11:55:29.691  INFO 23932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 11:55:29.692  INFO 23932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1617 ms
+2023-04-30 11:55:29.975  INFO 23932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 11:55:30.018  INFO 23932 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 11:55:30.156  INFO 23932 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 11:55:30.234  WARN 23932 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 11:55:30.235  INFO 23932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 11:55:30.494  INFO 23932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 11:55:30.505  INFO 23932 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 11:55:31.103  INFO 23932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 11:55:31.109  INFO 23932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:55:31.114  INFO 23932 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 11:55:31.471  WARN 23932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 11:55:31.898  INFO 23932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 11:55:31.903  INFO 23932 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 11:55:31.941  INFO 23932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 11:55:31.951  INFO 23932 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 4.323 seconds (JVM running for 4.811)
+2023-04-30 11:55:35.591  INFO 23932 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 11:55:35.592  INFO 23932 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 11:55:35.593  INFO 23932 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-30 11:55:35.617  INFO 23932 --- [http-nio-8080-exec-3] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 11:55:35.876  INFO 23932 --- [http-nio-8080-exec-4] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 11:55:37.336  INFO 23932 --- [http-nio-8080-exec-2] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 11:55:37.397  INFO 23932 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 11:55:37.401  INFO 23932 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 11:55:37.480  INFO 23932 --- [http-nio-8080-exec-1] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 11:55:37.486  INFO 23932 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 11:55:37.486  INFO 23932 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 11:55:52.879  INFO 23932 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:55:52.882  INFO 23932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 11:55:52.893  INFO 23932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 11:55:54.874  INFO 18384 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 18384 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 11:55:54.876  INFO 18384 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 11:55:54.934  INFO 18384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 11:55:54.934  INFO 18384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 11:55:55.612  INFO 18384 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 11:55:55.655  INFO 18384 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2023-04-30 11:55:56.301  INFO 18384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 11:55:56.309  INFO 18384 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 11:55:56.310  INFO 18384 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 11:55:56.376  INFO 18384 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 11:55:56.377  INFO 18384 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1443 ms
+2023-04-30 11:55:56.645  INFO 18384 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 11:55:56.685  INFO 18384 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 11:55:56.812  INFO 18384 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 11:55:56.891  WARN 18384 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 11:55:56.892  INFO 18384 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 11:55:57.121  INFO 18384 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 11:55:57.134  INFO 18384 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 11:55:57.698  INFO 18384 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 11:55:57.706  INFO 18384 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:55:57.711  INFO 18384 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 11:55:58.089  WARN 18384 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 11:55:58.507  INFO 18384 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 11:55:58.513  INFO 18384 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 11:55:58.557  INFO 18384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 11:55:58.573  INFO 18384 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 4.1 seconds (JVM running for 4.581)
+2023-04-30 11:56:05.867  INFO 18384 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 11:56:05.868  INFO 18384 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 11:56:05.869  INFO 18384 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-30 11:56:05.892  INFO 18384 --- [http-nio-8080-exec-1] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 11:56:06.110  INFO 18384 --- [http-nio-8080-exec-2] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 11:56:07.301  INFO 18384 --- [http-nio-8080-exec-3] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 11:56:07.349  INFO 18384 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 11:56:07.353  INFO 18384 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 11:56:07.416  INFO 18384 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 11:56:07.421  INFO 18384 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 11:56:07.421  INFO 18384 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 11:56:32.515  INFO 18384 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 11:56:32.518  INFO 18384 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 11:56:32.527  INFO 18384 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 13:05:47.608  INFO 8036 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 8036 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 13:05:47.610  INFO 8036 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 13:05:47.675  INFO 8036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 13:05:47.675  INFO 8036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 13:05:48.672  INFO 8036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 13:05:48.724  INFO 8036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2023-04-30 13:05:49.387  INFO 8036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 13:05:49.396  INFO 8036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 13:05:49.396  INFO 8036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 13:05:49.457  INFO 8036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 13:05:49.457  INFO 8036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1781 ms
+2023-04-30 13:05:49.808  INFO 8036 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 13:05:49.853  INFO 8036 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 13:05:49.985  INFO 8036 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 13:05:50.068  WARN 8036 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 13:05:50.069  INFO 8036 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 13:05:50.343  INFO 8036 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 13:05:50.360  INFO 8036 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 13:05:51.008  INFO 8036 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 13:05:51.015  INFO 8036 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:05:51.020  INFO 8036 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 13:05:51.418  WARN 8036 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 13:05:51.792  INFO 8036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 13:05:51.799  INFO 8036 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 13:05:51.951  INFO 8036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 13:05:51.966  INFO 8036 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 4.767 seconds (JVM running for 5.274)
+2023-04-30 13:05:56.881  INFO 8036 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 13:05:56.882  INFO 8036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 13:05:56.884  INFO 8036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-30 13:06:05.889  INFO 8036 --- [http-nio-8080-exec-7] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 13:06:05.913  INFO 8036 --- [http-nio-8080-exec-8] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 13:06:07.603  INFO 8036 --- [http-nio-8080-exec-5] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:06:07.686  INFO 8036 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:06:07.688  INFO 8036 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:06:07.727  INFO 8036 --- [http-nio-8080-exec-6] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:06:07.734  INFO 8036 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:06:07.735  INFO 8036 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:16:31.978  INFO 8036 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:16:31.981  INFO 8036 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 13:16:31.988  INFO 8036 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 13:16:34.827  INFO 10356 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 10356 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 13:16:34.829  INFO 10356 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 13:16:34.883  INFO 10356 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 13:16:34.883  INFO 10356 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 13:16:35.546  INFO 10356 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 13:16:35.585  INFO 10356 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2023-04-30 13:16:36.241  INFO 10356 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 13:16:36.249  INFO 10356 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 13:16:36.250  INFO 10356 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 13:16:36.312  INFO 10356 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 13:16:36.312  INFO 10356 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1428 ms
+2023-04-30 13:16:36.579  INFO 10356 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 13:16:36.626  INFO 10356 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 13:16:36.737  INFO 10356 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 13:16:36.807  WARN 10356 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 13:16:36.809  INFO 10356 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 13:16:37.051  INFO 10356 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 13:16:37.063  INFO 10356 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 13:16:37.551  INFO 10356 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 13:16:37.558  INFO 10356 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:16:37.562  INFO 10356 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 13:16:37.905  WARN 10356 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 13:16:38.281  INFO 10356 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 13:16:38.287  INFO 10356 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 13:16:38.322  INFO 10356 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 13:16:38.332  INFO 10356 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 3.898 seconds (JVM running for 4.333)
+2023-04-30 13:16:44.000  INFO 10356 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 13:16:44.001  INFO 10356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 13:16:44.002  INFO 10356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-30 13:17:14.487  INFO 10356 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:17:14.491  INFO 10356 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 13:17:14.504  INFO 10356 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 13:20:33.740  INFO 24068 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 24068 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 13:20:33.742  INFO 24068 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 13:20:33.796  INFO 24068 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 13:20:33.797  INFO 24068 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 13:20:34.448  INFO 24068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 13:20:34.488  INFO 24068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2023-04-30 13:20:35.152  INFO 24068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 13:20:35.163  INFO 24068 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 13:20:35.163  INFO 24068 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 13:20:35.222  INFO 24068 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 13:20:35.222  INFO 24068 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1425 ms
+2023-04-30 13:20:35.469  INFO 24068 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 13:20:35.515  INFO 24068 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 13:20:35.630  INFO 24068 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 13:20:35.699  WARN 24068 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 13:20:35.700  INFO 24068 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 13:20:35.940  INFO 24068 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 13:20:35.952  INFO 24068 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 13:20:36.444  INFO 24068 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 13:20:36.451  INFO 24068 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:20:36.456  INFO 24068 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 13:20:36.810  WARN 24068 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 13:20:37.198  INFO 24068 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 13:20:37.202  INFO 24068 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 13:20:37.239  INFO 24068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 13:20:37.249  INFO 24068 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 3.877 seconds (JVM running for 4.336)
+2023-04-30 13:20:40.908  INFO 24068 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 13:20:40.909  INFO 24068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 13:20:40.910  INFO 24068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-30 13:20:40.934  INFO 24068 --- [http-nio-8080-exec-1] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:20:40.982  INFO 24068 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:20:40.986  INFO 24068 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:20:41.284  INFO 24068 --- [http-nio-8080-exec-2] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:20:41.289  INFO 24068 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:20:41.289  INFO 24068 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:21:12.360  INFO 24068 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:21:12.364  INFO 24068 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 13:21:12.376  INFO 24068 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 13:21:14.726  INFO 21236 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 21236 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 13:21:14.727  INFO 21236 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 13:21:14.783  INFO 21236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 13:21:14.783  INFO 21236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 13:21:15.440  INFO 21236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 13:21:15.477  INFO 21236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2023-04-30 13:21:16.143  INFO 21236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 13:21:16.152  INFO 21236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 13:21:16.152  INFO 21236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 13:21:16.212  INFO 21236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 13:21:16.212  INFO 21236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1428 ms
+2023-04-30 13:21:16.472  INFO 21236 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 13:21:16.511  INFO 21236 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 13:21:16.627  INFO 21236 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 13:21:16.701  WARN 21236 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 13:21:16.702  INFO 21236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 13:21:16.932  INFO 21236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 13:21:16.944  INFO 21236 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 13:21:17.450  INFO 21236 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 13:21:17.457  INFO 21236 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:21:17.462  INFO 21236 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 13:21:17.820  WARN 21236 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 13:21:18.199  INFO 21236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 13:21:18.206  INFO 21236 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 13:21:18.246  INFO 21236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 13:21:18.256  INFO 21236 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 3.901 seconds (JVM running for 4.327)
+2023-04-30 13:21:24.175  INFO 21236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 13:21:24.176  INFO 21236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 13:21:24.177  INFO 21236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-30 13:21:24.202  INFO 21236 --- [http-nio-8080-exec-1] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:21:24.252  INFO 21236 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:21:24.256  INFO 21236 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:21:24.537  INFO 21236 --- [http-nio-8080-exec-5] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:21:24.541  INFO 21236 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:21:24.542  INFO 21236 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:21:55.449  INFO 21236 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:21:55.452  INFO 21236 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 13:21:55.461  INFO 21236 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 13:21:57.503  INFO 22040 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 22040 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 13:21:57.504  INFO 22040 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 13:21:57.555  INFO 22040 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 13:21:57.555  INFO 22040 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 13:21:58.223  INFO 22040 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 13:21:58.266  INFO 22040 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2023-04-30 13:21:58.922  INFO 22040 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 13:21:58.931  INFO 22040 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 13:21:58.931  INFO 22040 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 13:21:58.994  INFO 22040 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 13:21:58.995  INFO 22040 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1439 ms
+2023-04-30 13:21:59.259  INFO 22040 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 13:21:59.301  INFO 22040 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 13:21:59.425  INFO 22040 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 13:21:59.499  WARN 22040 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 13:21:59.500  INFO 22040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 13:21:59.745  INFO 22040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 13:21:59.758  INFO 22040 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 13:22:00.290  INFO 22040 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 13:22:00.296  INFO 22040 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:22:00.301  INFO 22040 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 13:22:00.653  WARN 22040 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 13:22:01.023  INFO 22040 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 13:22:01.029  INFO 22040 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 13:22:01.069  INFO 22040 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 13:22:01.079  INFO 22040 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 3.966 seconds (JVM running for 4.387)
+2023-04-30 13:22:05.443  INFO 22040 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 13:22:05.445  INFO 22040 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 13:22:05.446  INFO 22040 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-30 13:22:05.470  INFO 22040 --- [http-nio-8080-exec-1] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:22:05.521  INFO 22040 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:22:05.526  INFO 22040 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:22:05.802  INFO 22040 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:22:05.806  INFO 22040 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:22:05.807  INFO 22040 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:22:44.847  INFO 22040 --- [http-nio-8080-exec-7] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:22:44.852  INFO 22040 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:22:44.853  INFO 22040 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:22:44.873  INFO 22040 --- [http-nio-8080-exec-6] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:22:44.878  INFO 22040 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:22:44.879  INFO 22040 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:22:49.000  INFO 22040 --- [http-nio-8080-exec-3] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:22:49.005  INFO 22040 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:22:49.006  INFO 22040 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:22:49.025  INFO 22040 --- [http-nio-8080-exec-2] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:22:49.030  INFO 22040 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:22:49.030  INFO 22040 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:30:43.753  INFO 22040 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:30:43.758  INFO 22040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 13:30:43.773  INFO 22040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 13:30:48.715  INFO 7472 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 7472 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 13:30:48.717  INFO 7472 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 13:30:48.787  INFO 7472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 13:30:48.787  INFO 7472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 13:30:49.821  INFO 7472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 13:30:49.877  INFO 7472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2023-04-30 13:30:50.902  INFO 7472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 13:30:50.917  INFO 7472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 13:30:50.918  INFO 7472 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 13:30:51.035  INFO 7472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 13:30:51.035  INFO 7472 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2246 ms
+2023-04-30 13:30:51.408  INFO 7472 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 13:30:51.479  INFO 7472 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 13:30:51.648  INFO 7472 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 13:30:51.769  WARN 7472 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 13:30:51.771  INFO 7472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 13:30:52.172  INFO 7472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 13:30:52.190  INFO 7472 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 13:30:53.002  INFO 7472 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 13:30:53.015  INFO 7472 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:30:53.024  INFO 7472 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 13:30:53.572  WARN 7472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 13:30:54.120  INFO 7472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 13:30:54.128  INFO 7472 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 13:30:54.179  INFO 7472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 13:30:54.193  INFO 7472 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 6.001 seconds (JVM running for 6.639)
+2023-04-30 13:30:57.396  INFO 7472 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 13:30:57.398  INFO 7472 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 13:30:57.403  INFO 7472 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-04-30 13:30:57.482  INFO 7472 --- [http-nio-8080-exec-1] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 13:30:58.466  INFO 7472 --- [http-nio-8080-exec-2] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 13:30:59.819  INFO 7472 --- [http-nio-8080-exec-3] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:31:00.004  INFO 7472 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:31:00.023  INFO 7472 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:31:00.254  INFO 7472 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:31:00.265  INFO 7472 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:31:00.266  INFO 7472 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:31:04.731  INFO 7472 --- [http-nio-8080-exec-9] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:31:04.743  INFO 7472 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:31:04.744  INFO 7472 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:31:04.799  INFO 7472 --- [http-nio-8080-exec-10] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:31:04.810  INFO 7472 --- [http-nio-8080-exec-10] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:31:04.811  INFO 7472 --- [http-nio-8080-exec-10] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:31:12.985  INFO 7472 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket has been successfully updated.
+2023-04-30 13:31:13.019  INFO 7472 --- [http-nio-8080-exec-5] c.g.t.t.c.TicketTrackerController        : Ticket information have been saved. Information := TicketDto(id=5, ticketTitle=Ticket Kahona Payar Hai, ticketShortDes=Kahona Payar Hai by HR, content=<b>Kahona Payar Hai by Hrithik</b>, ticketCreatedTime=2023-04-26T00:38)
+2023-04-30 13:31:13.040  INFO 7472 --- [http-nio-8080-exec-6] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:31:13.052  INFO 7472 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:31:13.053  INFO 7472 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:31:13.109  INFO 7472 --- [http-nio-8080-exec-7] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:31:13.121  INFO 7472 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:31:13.124  INFO 7472 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:31:26.373  INFO 7472 --- [http-nio-8080-exec-10] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:31:26.386  INFO 7472 --- [http-nio-8080-exec-10] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:31:26.387  INFO 7472 --- [http-nio-8080-exec-10] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:31:26.432  INFO 7472 --- [http-nio-8080-exec-1] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:31:26.442  INFO 7472 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:31:26.443  INFO 7472 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:34:26.316  INFO 7472 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:34:26.322  INFO 7472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 13:34:26.339  INFO 7472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 13:34:30.150  INFO 16712 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 16712 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 13:34:30.152  INFO 16712 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 13:34:30.217  INFO 16712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 13:34:30.218  INFO 16712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 13:34:31.266  INFO 16712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 13:34:31.329  INFO 16712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2023-04-30 13:34:32.377  INFO 16712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 13:34:32.392  INFO 16712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 13:34:32.393  INFO 16712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 13:34:32.484  INFO 16712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 13:34:32.485  INFO 16712 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2266 ms
+2023-04-30 13:34:32.842  INFO 16712 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 13:34:32.901  INFO 16712 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 13:34:33.088  INFO 16712 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 13:34:33.202  WARN 16712 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 13:34:33.205  INFO 16712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 13:34:33.586  INFO 16712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 13:34:33.608  INFO 16712 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 13:34:34.393  INFO 16712 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 13:34:34.409  INFO 16712 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:34:34.418  INFO 16712 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 13:34:34.904  WARN 16712 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 13:34:35.467  INFO 16712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 13:34:35.474  INFO 16712 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 13:34:35.526  INFO 16712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 13:34:35.544  INFO 16712 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 5.936 seconds (JVM running for 6.638)
+2023-04-30 13:34:40.682  INFO 16712 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 13:34:40.685  INFO 16712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 13:34:40.689  INFO 16712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-04-30 13:34:40.774  INFO 16712 --- [http-nio-8080-exec-1] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:34:40.959  INFO 16712 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:34:40.981  INFO 16712 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:34:42.022  INFO 16712 --- [http-nio-8080-exec-3] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:34:42.036  INFO 16712 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:34:42.038  INFO 16712 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:37:42.677  INFO 16712 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:37:42.682  INFO 16712 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 13:37:42.699  INFO 16712 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 13:37:45.391  INFO 16008 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 16008 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 13:37:45.393  INFO 16008 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 13:37:45.460  INFO 16008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 13:37:45.461  INFO 16008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 13:37:46.456  INFO 16008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 13:37:46.510  INFO 16008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2023-04-30 13:37:47.471  INFO 16008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 13:37:47.484  INFO 16008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 13:37:47.484  INFO 16008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 13:37:47.576  INFO 16008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 13:37:47.577  INFO 16008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2115 ms
+2023-04-30 13:37:47.931  INFO 16008 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 13:37:47.984  INFO 16008 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 13:37:48.153  INFO 16008 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 13:37:48.255  WARN 16008 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 13:37:48.256  INFO 16008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 13:37:48.618  INFO 16008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 13:37:48.633  INFO 16008 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 13:37:49.390  INFO 16008 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 13:37:49.406  INFO 16008 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 13:37:49.420  INFO 16008 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 13:37:49.929  WARN 16008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 13:37:50.438  INFO 16008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 13:37:50.445  INFO 16008 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 13:37:50.497  INFO 16008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 13:37:50.514  INFO 16008 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 5.648 seconds (JVM running for 6.292)
+2023-04-30 13:37:56.454  INFO 16008 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 13:37:56.454  INFO 16008 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 13:37:56.456  INFO 16008 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-30 13:38:03.220  INFO 16008 --- [http-nio-8080-exec-5] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:38:03.399  INFO 16008 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:38:03.407  INFO 16008 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:38:03.497  INFO 16008 --- [http-nio-8080-exec-6] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:38:03.509  INFO 16008 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:38:03.510  INFO 16008 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:38:13.075  INFO 16008 --- [http-nio-8080-exec-1] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:38:13.087  INFO 16008 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:38:13.089  INFO 16008 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:38:13.142  INFO 16008 --- [http-nio-8080-exec-2] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:38:13.152  INFO 16008 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:38:13.154  INFO 16008 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:38:31.153  INFO 16008 --- [http-nio-8080-exec-9] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:38:31.167  INFO 16008 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:38:31.168  INFO 16008 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 13:38:31.223  INFO 16008 --- [http-nio-8080-exec-10] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 13:38:31.231  INFO 16008 --- [http-nio-8080-exec-10] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 13:38:31.234  INFO 16008 --- [http-nio-8080-exec-10] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 15:10:52.959  WARN 16008 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m9s304ms627µs800ns).
+2023-04-30 19:27:33.146  WARN 16008 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h9m13s838ms355µs300ns).
+2023-04-30 20:01:05.921  INFO 16008 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 20:01:05.946  INFO 16008 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 20:01:05.961  INFO 16008 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 20:01:14.253  INFO 3928 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 3928 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 20:01:14.255  INFO 3928 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 20:01:14.332  INFO 3928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 20:01:14.333  INFO 3928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 20:01:15.468  INFO 3928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 20:01:15.529  INFO 3928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2023-04-30 20:01:16.716  INFO 3928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 20:01:16.736  INFO 3928 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 20:01:16.736  INFO 3928 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 20:01:16.908  INFO 3928 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 20:01:16.909  INFO 3928 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2575 ms
+2023-04-30 20:01:17.303  INFO 3928 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 20:01:17.392  INFO 3928 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 20:01:17.643  INFO 3928 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 20:01:17.813  WARN 3928 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 20:01:17.814  INFO 3928 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 20:01:18.264  INFO 3928 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 20:01:18.299  INFO 3928 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 20:01:19.151  INFO 3928 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 20:01:19.163  INFO 3928 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 20:01:19.170  INFO 3928 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 20:01:19.678  WARN 3928 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 20:01:20.209  INFO 3928 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 20:01:20.217  INFO 3928 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 20:01:20.269  INFO 3928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 20:01:20.287  INFO 3928 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 6.613 seconds (JVM running for 7.367)
+2023-04-30 20:02:12.845  INFO 3928 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 20:02:12.848  INFO 3928 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 20:02:12.853  INFO 3928 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-04-30 20:02:12.939  INFO 3928 --- [http-nio-8080-exec-1] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 20:02:13.999  INFO 3928 --- [http-nio-8080-exec-3] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 20:02:15.901  INFO 3928 --- [http-nio-8080-exec-2] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:02:16.110  INFO 3928 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 20:02:16.127  INFO 3928 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 20:02:16.384  INFO 3928 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:02:16.396  INFO 3928 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 20:02:16.397  INFO 3928 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 20:02:18.884  INFO 3928 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket has been successfully deleted.
+2023-04-30 20:02:18.906  INFO 3928 --- [http-nio-8080-exec-6] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:02:18.919  INFO 3928 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 1
+2023-04-30 20:02:18.920  INFO 3928 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 1
+2023-04-30 20:02:18.990  INFO 3928 --- [http-nio-8080-exec-7] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:02:19.001  INFO 3928 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 1
+2023-04-30 20:02:19.001  INFO 3928 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 1
+2023-04-30 20:02:19.814  INFO 3928 --- [http-nio-8080-exec-8] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket has been successfully deleted.
+2023-04-30 20:02:19.834  INFO 3928 --- [http-nio-8080-exec-9] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:02:19.843  INFO 3928 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 0
+2023-04-30 20:02:19.890  INFO 3928 --- [http-nio-8080-exec-10] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:02:19.897  INFO 3928 --- [http-nio-8080-exec-10] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 0
+2023-04-30 20:06:19.526  WARN 3928 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1406, SQLState: 22001
+2023-04-30 20:06:19.527 ERROR 3928 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : Data truncation: Data too long for column 'ticket_content' at row 1
+2023-04-30 20:06:19.529  INFO 3928 --- [http-nio-8080-exec-8] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2023-04-30 20:06:19.552 ERROR 3928 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement] with root cause
+
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'ticket_content' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3375) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3937) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:na]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1394) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.27.jar:5.3.27]
+	at com.sun.proxy.$Proxy118.flush(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:315) ~[spring-orm-5.3.27.jar:5.3.27]
+	at com.sun.proxy.$Proxy118.flush(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.flush(SimpleJpaRepository.java:727) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.saveAndFlush(SimpleJpaRepository.java:682) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at com.sun.proxy.$Proxy123.saveAndFlush(Unknown Source) ~[na:na]
+	at com.glearning.ticket.tracker.services.impl.TicketTrackerServiceImpl.saveTicketDetails(TicketTrackerServiceImpl.java:71) ~[classes/:na]
+	at com.glearning.ticket.tracker.controller.TicketTrackerController.saveTicket(TicketTrackerController.java:70) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.12-20230428.174606-7.jar:2.7.12-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2023-04-30 20:06:19.624  WARN 3928 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2023-04-30 20:06:51.855  INFO 3928 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 20:06:51.862  INFO 3928 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 20:06:51.877  INFO 3928 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 20:08:20.287  INFO 23444 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 23444 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 20:08:20.290  INFO 23444 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 20:08:20.404  INFO 23444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 20:08:20.404  INFO 23444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 20:08:21.444  INFO 23444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 20:08:21.502  INFO 23444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2023-04-30 20:08:22.561  INFO 23444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 20:08:22.574  INFO 23444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 20:08:22.575  INFO 23444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 20:08:22.681  INFO 23444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 20:08:22.681  INFO 23444 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2275 ms
+2023-04-30 20:08:23.057  INFO 23444 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 20:08:23.104  INFO 23444 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 20:08:23.310  INFO 23444 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 20:08:23.470  WARN 23444 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 20:08:23.472  INFO 23444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 20:08:23.991  INFO 23444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 20:08:24.023  INFO 23444 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 20:08:24.851  INFO 23444 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 20:08:24.862  INFO 23444 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 20:08:24.869  INFO 23444 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 20:08:25.430  WARN 23444 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 20:08:26.043  INFO 23444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 20:08:26.049  INFO 23444 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 20:08:26.097  INFO 23444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 20:08:26.111  INFO 23444 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 6.467 seconds (JVM running for 7.108)
+2023-04-30 20:08:26.225  INFO 23444 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 20:08:26.226  INFO 23444 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 20:08:26.227  INFO 23444 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-30 20:08:26.267  INFO 23444 --- [http-nio-8080-exec-2] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 20:08:26.671  INFO 23444 --- [http-nio-8080-exec-1] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 20:08:31.907  INFO 23444 --- [http-nio-8080-exec-3] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:08:32.173  INFO 23444 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 0
+2023-04-30 20:08:32.425  INFO 23444 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:08:32.434  INFO 23444 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 0
+2023-04-30 20:09:13.914  WARN 23444 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1406, SQLState: 22001
+2023-04-30 20:09:13.915 ERROR 23444 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : Data truncation: Data too long for column 'ticket_content' at row 1
+2023-04-30 20:09:13.916  INFO 23444 --- [http-nio-8080-exec-9] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2023-04-30 20:09:13.934 ERROR 23444 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement] with root cause
+
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'ticket_content' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3375) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3937) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:na]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1394) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.27.jar:5.3.27]
+	at com.sun.proxy.$Proxy118.flush(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:315) ~[spring-orm-5.3.27.jar:5.3.27]
+	at com.sun.proxy.$Proxy118.flush(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.flush(SimpleJpaRepository.java:727) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.saveAndFlush(SimpleJpaRepository.java:682) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.7.11.jar:2.7.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at com.sun.proxy.$Proxy123.saveAndFlush(Unknown Source) ~[na:na]
+	at com.glearning.ticket.tracker.services.impl.TicketTrackerServiceImpl.saveTicketDetails(TicketTrackerServiceImpl.java:71) ~[classes/:na]
+	at com.glearning.ticket.tracker.controller.TicketTrackerController.saveTicket(TicketTrackerController.java:70) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.12-20230428.174606-7.jar:2.7.12-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2023-04-30 20:09:13.989  WARN 23444 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2023-04-30 20:11:20.439  INFO 23444 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 20:11:20.451  INFO 23444 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 20:11:20.468  INFO 23444 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 20:11:34.419  INFO 2804 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 2804 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 20:11:34.420  INFO 2804 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 20:11:34.495  INFO 2804 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 20:11:34.495  INFO 2804 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 20:11:35.507  INFO 2804 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 20:11:35.564  INFO 2804 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2023-04-30 20:11:36.603  INFO 2804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 20:11:36.619  INFO 2804 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 20:11:36.620  INFO 2804 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 20:11:36.722  INFO 2804 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 20:11:36.723  INFO 2804 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2225 ms
+2023-04-30 20:11:37.076  INFO 2804 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 20:11:37.136  INFO 2804 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 20:11:37.304  INFO 2804 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 20:11:37.415  WARN 2804 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 20:11:37.416  INFO 2804 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 20:11:37.765  INFO 2804 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 20:11:37.780  INFO 2804 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 20:11:38.577  INFO 2804 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 20:11:38.587  INFO 2804 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 20:11:38.594  INFO 2804 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 20:11:39.118  WARN 2804 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 20:11:39.640  INFO 2804 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 20:11:39.648  INFO 2804 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 20:11:39.704  INFO 2804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 20:11:39.717  INFO 2804 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 5.839 seconds (JVM running for 6.572)
+2023-04-30 20:11:49.611  INFO 2804 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 20:11:49.614  INFO 2804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 20:11:49.619  INFO 2804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-04-30 20:11:49.700  INFO 2804 --- [http-nio-8080-exec-1] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 20:11:50.678  INFO 2804 --- [http-nio-8080-exec-2] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 20:11:51.930  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:11:52.079  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 0
+2023-04-30 20:11:52.270  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:11:52.277  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 0
+2023-04-30 20:12:57.434  INFO 2804 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : New ticket record has been created.
+2023-04-30 20:12:57.471  INFO 2804 --- [http-nio-8080-exec-2] c.g.t.t.c.TicketTrackerController        : Ticket information have been saved. Information := TicketDto(id=1, ticketTitle=Flight Ticket, ticketShortDes=Flight Ticket from Bangalore to Kolkata, content=<pre class="default s-code-block" style="margin-bottom: calc(1.5em); padding: var(--su12); border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: var(--lh-md); font-family: var(--ff-mono); font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--fs-body1); vertical-align: baseline; box-sizing: inherit; width: auto; max-height: 600px; background-color: var(--highlight-bg); border-radius: var(--br-md); --_cb-line-numbers-bg:var(--black-050); overflow-wrap: normal;"><span style="font-family: arial, sans-serif; font-size: 14px; white-space: normal;"><b style="color: rgb(77, 81, 86);">Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state.</b><font color="#4d5156"> The center of India's high-tech industry, the city is also known for its parks and nightlife. By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building. Former royal residences include 19th-century Bangalore Palace, modeled after England’s </font><b style=""><font color="#e36c09">Windsor Castle, and Tipu Sultan’s Summer Palace, an 18th-century teak structure.</font></b></span><font color="rgba(0, 0, 0, 0)"><br></font></pre>, ticketCreatedTime=2023-04-30T20:12:57.388834600)
+2023-04-30 20:12:57.537  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:12:57.569  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 1
+2023-04-30 20:12:57.570  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 1
+2023-04-30 20:12:57.647  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:12:57.659  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 1
+2023-04-30 20:12:57.660  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 1
+2023-04-30 20:13:03.858  INFO 2804 --- [http-nio-8080-exec-7] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:13:03.868  INFO 2804 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 1
+2023-04-30 20:13:03.869  INFO 2804 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 1
+2023-04-30 20:13:03.913  INFO 2804 --- [http-nio-8080-exec-8] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:13:03.921  INFO 2804 --- [http-nio-8080-exec-8] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 1
+2023-04-30 20:13:03.922  INFO 2804 --- [http-nio-8080-exec-8] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 1
+2023-04-30 20:13:34.248  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket has been successfully updated.
+2023-04-30 20:13:34.249  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.c.TicketTrackerController        : Ticket information have been saved. Information := TicketDto(id=1, ticketTitle=Flight Ticket, ticketShortDes=Flight Ticket from Bangalore to Kolkata, content=<pre class="default s-code-block" style="margin-bottom: calc(1.5em); padding: var(--su12); border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: var(--lh-md); font-family: var(--ff-mono); font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--fs-body1); vertical-align: baseline; box-sizing: inherit; width: auto; max-height: 600px; background-color: var(--highlight-bg); border-radius: var(--br-md); --_cb-line-numbers-bg:var(--black-050); overflow-wrap: normal;"><span style="font-family: arial, sans-serif; font-size: 14px; white-space: normal;"><b style="color: rgb(77, 81, 86);">Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state.</b><font color="#4d5156"> The center of India's high-tech industry, the city is also known for its parks and nightlife. </font><b style=""><i style=""><font color="#953734">By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building.</font></i></b><font color="#4d5156"> Former royal residences include 19th-century Bangalore Palace, modeled after England’s </font><b style=""><font color="#e36c09">Windsor Castle, and Tipu Sultan’s Summer Palace, an 18th-century teak structure.</font></b></span><font color="rgba(0, 0, 0, 0)"><br></font></pre>, ticketCreatedTime=2023-04-30T20:12:57.388835)
+2023-04-30 20:13:34.265  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:13:34.278  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 1
+2023-04-30 20:13:34.279  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 1
+2023-04-30 20:13:34.319  INFO 2804 --- [http-nio-8080-exec-5] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:13:34.329  INFO 2804 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 1
+2023-04-30 20:13:34.330  INFO 2804 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 1
+2023-04-30 20:14:37.277  INFO 2804 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : New ticket record has been created.
+2023-04-30 20:14:37.279  INFO 2804 --- [http-nio-8080-exec-2] c.g.t.t.c.TicketTrackerController        : Ticket information have been saved. Information := TicketDto(id=2, ticketTitle=Train Ticket , ticketShortDes=Train Ticket from Goa to Bangalore, content=<div><span style="font-family: arial, sans-serif; font-size: 14px;"><font color="#4d5156">Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese colony prior to 1961 is evident in its preserved 17th-century churches and the area’s tropical spice plantations. </font><b style=""><font color="#3f3151">Goa is also known for its beaches, ranging from popular stretches at Baga and Palolem to those in laid-back fishing villages such as Agonda.</font></b></span><br></div>, ticketCreatedTime=2023-04-30T20:14:37.264050100)
+2023-04-30 20:14:37.296  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:14:37.309  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 20:14:37.313  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 20:14:37.359  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:14:37.369  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 2
+2023-04-30 20:14:37.370  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 2
+2023-04-30 20:15:40.670  INFO 2804 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : New ticket record has been created.
+2023-04-30 20:15:40.671  INFO 2804 --- [http-nio-8080-exec-9] c.g.t.t.c.TicketTrackerController        : Ticket information have been saved. Information := TicketDto(id=3, ticketTitle=Bus Ticket, ticketShortDes=Bus Ticket from Yeswantpur to Panji, content=<div><span style="color: rgb(77, 81, 86); font-family: arial, sans-serif; font-size: 14px;">Panaji, also known as Panjim, is the state capital of Goa, in southwest India. Located on the banks of the Mandovi River, the city has cobblestone streets lined with colorful villas an buildings from the Portuguese colonial era. </span><span style="font-family: arial, sans-serif; font-size: 14px;"><font color="#938953"><b><i>Palm-fringed Miramar Beach sits at the confluence of the river and the Arabian Sea. Set on a hill overlooking the city is the baroque Our Lady of Immaculate Conception Church, built in 1619.</i></b></font></span><br></div>, ticketCreatedTime=2023-04-30T20:15:40.657734200)
+2023-04-30 20:15:40.688  INFO 2804 --- [http-nio-8080-exec-1] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:15:40.698  INFO 2804 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:15:40.699  INFO 2804 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:15:40.745  INFO 2804 --- [http-nio-8080-exec-10] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:15:40.755  INFO 2804 --- [http-nio-8080-exec-10] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:15:40.756  INFO 2804 --- [http-nio-8080-exec-10] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:15:46.058  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:15:46.068  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:15:46.068  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:15:46.118  INFO 2804 --- [http-nio-8080-exec-5] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:15:46.126  INFO 2804 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:15:46.127  INFO 2804 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:19:39.360  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:19:39.372  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:19:39.373  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:19:39.433  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:19:39.445  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:19:39.446  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:20:18.041  INFO 2804 --- [http-nio-8080-exec-10] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 20:20:18.082  INFO 2804 --- [http-nio-8080-exec-2] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 20:20:19.550  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:20:19.564  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:20:19.565  INFO 2804 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:20:19.617  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:20:19.624  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:20:19.625  INFO 2804 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:20:51.436  INFO 2804 --- [http-nio-8080-exec-7] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:20:51.449  INFO 2804 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:20:51.450  INFO 2804 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:20:51.507  INFO 2804 --- [http-nio-8080-exec-9] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:20:51.517  INFO 2804 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:20:51.518  INFO 2804 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:21:51.515  INFO 2804 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 20:21:51.521  INFO 2804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 20:21:51.533  INFO 2804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-30 20:21:55.962  INFO 21008 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Starting TicketTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 21008 (D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\ticket-tracker-application)
+2023-04-30 20:21:55.964  INFO 21008 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-30 20:21:56.033  INFO 21008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-30 20:21:56.033  INFO 21008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-30 20:21:57.013  INFO 21008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 20:21:57.078  INFO 21008 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+2023-04-30 20:21:58.081  INFO 21008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-30 20:21:58.099  INFO 21008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-30 20:21:58.099  INFO 21008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 20:21:58.197  INFO 21008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-30 20:21:58.198  INFO 21008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2163 ms
+2023-04-30 20:21:58.558  INFO 21008 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 20:21:58.609  INFO 21008 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 20:21:58.781  INFO 21008 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 20:21:58.881  WARN 21008 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-04-30 20:21:58.882  INFO 21008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-30 20:21:59.246  INFO 21008 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-30 20:21:59.263  INFO 21008 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 20:21:59.951  INFO 21008 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 20:21:59.962  INFO 21008 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 20:21:59.969  INFO 21008 --- [restartedMain] c.g.t.t.config.TicketTrackerAppConfig    : Configuration class has been loaded for Ticket Tracker Application.
+2023-04-30 20:22:00.465  WARN 21008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 20:22:00.992  INFO 21008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-30 20:22:00.999  INFO 21008 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-04-30 20:22:01.056  INFO 21008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-30 20:22:01.075  INFO 21008 --- [restartedMain] c.g.t.tracker.TicketTrackerApplication   : Started TicketTrackerApplication in 5.686 seconds (JVM running for 6.344)
+2023-04-30 20:22:07.728  INFO 21008 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 20:22:07.730  INFO 21008 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-30 20:22:07.732  INFO 21008 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-30 20:22:17.863  INFO 21008 --- [http-nio-8080-exec-5] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 20:22:18.182  INFO 21008 --- [http-nio-8080-exec-4] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 20:22:19.634  INFO 21008 --- [http-nio-8080-exec-3] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:22:19.725  INFO 21008 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:22:19.731  INFO 21008 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:22:19.818  INFO 21008 --- [http-nio-8080-exec-6] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:22:19.824  INFO 21008 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:22:19.824  INFO 21008 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:22:21.610  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:22:21.617  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:22:21.618  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:22:21.673  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:22:21.680  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:22:21.681  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:22:27.174  INFO 21008 --- [http-nio-8080-exec-1] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:22:27.183  INFO 21008 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:22:27.185  INFO 21008 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:22:27.230  INFO 21008 --- [http-nio-8080-exec-2] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:22:27.236  INFO 21008 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:22:27.236  INFO 21008 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:22:37.569  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:22:37.576  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:22:37.576  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:22:37.614  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:22:37.622  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:22:37.623  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:22:43.982  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:22:43.989  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:22:43.989  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:22:44.031  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:22:44.038  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:22:44.039  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:22:52.785  INFO 21008 --- [http-nio-8080-exec-5] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:22:52.792  INFO 21008 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:22:52.793  INFO 21008 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:22:52.827  INFO 21008 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:22:52.834  INFO 21008 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:22:52.834  INFO 21008 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:22:59.549  INFO 21008 --- [http-nio-8080-exec-8] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket has been successfully updated.
+2023-04-30 20:22:59.561  INFO 21008 --- [http-nio-8080-exec-8] c.g.t.t.c.TicketTrackerController        : Ticket information have been saved. Information := TicketDto(id=1, ticketTitle=Flight Ticket, ticketShortDes=Flight Ticket from Bangalore to Kolkata, content=<pre class="default s-code-block" style="margin-bottom: calc(1.5em); padding: var(--su12); border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: var(--lh-md); font-family: var(--ff-mono); font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--fs-body1); vertical-align: baseline; box-sizing: inherit; width: auto; max-height: 600px; background-color: var(--highlight-bg); border-radius: var(--br-md); --_cb-line-numbers-bg:var(--black-050); overflow-wrap: normal;"><span style="font-family: arial, sans-serif; font-size: 14px; white-space: normal;"><b style="color: rgb(77, 81, 86);">Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state.</b><font color="#4d5156"> The center of India's high-tech industry, the city is also known for its parks and nightlife. </font><b style=""><i style=""><font color="#953734">By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building.</font></i></b><font color="#4d5156"> Former royal residences include 19th-century Bangalore Palace, modeled after England’s </font><b style=""><font color="#e36c09">Windsor Castle, and Tipu Sultan’s Summer Palace, an 18th-century teak structure.</font></b></span><font color="rgba(0, 0, 0, 0)"><br></font></pre>, ticketCreatedTime=2023-04-30T20:12:57.388835)
+2023-04-30 20:22:59.575  INFO 21008 --- [http-nio-8080-exec-10] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:22:59.580  INFO 21008 --- [http-nio-8080-exec-10] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:22:59.581  INFO 21008 --- [http-nio-8080-exec-10] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:22:59.629  INFO 21008 --- [http-nio-8080-exec-1] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:22:59.634  INFO 21008 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:22:59.635  INFO 21008 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:23:06.728  INFO 21008 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket has been successfully updated.
+2023-04-30 20:23:06.728  INFO 21008 --- [http-nio-8080-exec-6] c.g.t.t.c.TicketTrackerController        : Ticket information have been saved. Information := TicketDto(id=2, ticketTitle=Train Ticket , ticketShortDes=Train Ticket from Goa to Bangalore, content=<div><span style="font-family: arial, sans-serif; font-size: 14px;"><font color="#4d5156">Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese colony prior to 1961 is evident in its preserved 17th-century churches and the area’s tropical spice plantations. </font><b style=""><font color="#3f3151">Goa is also known for its beaches, ranging from popular stretches at Baga and Palolem to those in laid-back fishing villages such as Agonda.</font></b></span><br></div>, ticketCreatedTime=2023-04-30T20:14:37.264050)
+2023-04-30 20:23:06.737  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:23:06.742  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:23:06.743  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:23:06.795  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:23:06.801  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:23:06.802  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:23:12.915  INFO 21008 --- [http-nio-8080-exec-1] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:23:12.919  INFO 21008 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:23:12.920  INFO 21008 --- [http-nio-8080-exec-1] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:23:12.957  INFO 21008 --- [http-nio-8080-exec-2] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:23:12.962  INFO 21008 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:23:12.962  INFO 21008 --- [http-nio-8080-exec-2] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:23:20.734  INFO 21008 --- [http-nio-8080-exec-5] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 20:23:20.770  INFO 21008 --- [http-nio-8080-exec-4] c.g.t.tracker.controller.HomeController  : Welcome page has been requested.
+2023-04-30 20:23:53.216  INFO 21008 --- [http-nio-8080-exec-3] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:23:53.221  INFO 21008 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:23:53.221  INFO 21008 --- [http-nio-8080-exec-3] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:23:53.270  INFO 21008 --- [http-nio-8080-exec-6] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:23:53.278  INFO 21008 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:23:53.279  INFO 21008 --- [http-nio-8080-exec-6] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:23:57.263  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:23:57.268  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:23:57.269  INFO 21008 --- [http-nio-8080-exec-7] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:23:57.318  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:23:57.323  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:23:57.324  INFO 21008 --- [http-nio-8080-exec-9] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:24:01.232  INFO 21008 --- [http-nio-8080-exec-5] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:24:01.240  INFO 21008 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:24:01.240  INFO 21008 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:24:01.277  INFO 21008 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:24:01.283  INFO 21008 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:24:01.284  INFO 21008 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:24:04.796  INFO 21008 --- [http-nio-8080-exec-8] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:24:04.802  INFO 21008 --- [http-nio-8080-exec-8] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:24:04.802  INFO 21008 --- [http-nio-8080-exec-8] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:24:04.841  INFO 21008 --- [http-nio-8080-exec-10] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:24:04.846  INFO 21008 --- [http-nio-8080-exec-10] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:24:04.846  INFO 21008 --- [http-nio-8080-exec-10] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:24:09.463  INFO 21008 --- [http-nio-8080-exec-5] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:24:09.469  INFO 21008 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:24:09.470  INFO 21008 --- [http-nio-8080-exec-5] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:24:09.513  INFO 21008 --- [http-nio-8080-exec-4] c.g.t.t.c.TicketTrackerController        : Tickets display page has been invoked.
+2023-04-30 20:24:09.518  INFO 21008 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket List Size := 3
+2023-04-30 20:24:09.518  INFO 21008 --- [http-nio-8080-exec-4] c.g.t.t.s.impl.TicketTrackerServiceImpl  : Ticket Details List Size := 3
+2023-04-30 20:27:17.271  INFO 21008 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 20:27:17.277  INFO 21008 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-30 20:27:17.288  INFO 21008 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
